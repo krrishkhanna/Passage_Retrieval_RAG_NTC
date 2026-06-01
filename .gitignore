@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+pr_env/
+source/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+
+# Corpus and indexes (not distributed via GitHub)
+*.jsonl
+*.jsonl.gz
+*.gz
+wikipedia_passages/
+wookieepedia_passages/
+*.db
+indexdir/
+data/
+
+# Submission outputs and large artifacts
+submission_*/
+*.zip
+run.txt
+*.out
+output/
+logs/
+*.log
+*.csv
+*.tsv
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Secrets
+.env
+.env.local
+
+# Archives
+*.tar
+*.tar.gz
+
+# Misc local files
+"# .gitignore_global"
+dryruntopics.txt

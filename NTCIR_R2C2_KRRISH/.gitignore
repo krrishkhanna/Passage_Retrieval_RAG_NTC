@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+source/
+pr_env/
+
+# OS
+.DS_Store
+
+# Corpus and indexes
+*.jsonl
+*.jsonl.gz
+wikipedia_passages/
+wookieepedia_passages/
+*.db
+indexdir/
+
+# Submissions and run artifacts
+submission_*/
+*.zip
+run.txt
+*.out
+output/
+logs/
+dryruntopics.txt
+
+# Secrets
+.env
+.env.local
